@@ -1,0 +1,179 @@
+{
+  "field_anchor": "rss_list_content",
+  "field_block_display_type": "rss_list",
+  "field_items": [
+    {
+      "id": "52",
+      "title": "SIT Master's Insights",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/8",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "53",
+      "uri": "/sites/default/files/2023-11/SIT_-_Masters_Insights.png",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "53",
+      "title": "SIT - The ICPC International Collegiate Programming Contest Asia Final",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/23",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "54",
+      "uri": "/sites/default/files/2023-11/SIT_ICPC.jpeg",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "54",
+      "title": "Graphene turns 15 years",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/25",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "55",
+      "uri": "/sites/default/files/2023-11/sit_blank_bage_1.jpeg",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "55",
+      "title": "SIT HOSTED AN ANNUAL CONFERENCE INSIGHTS IN TECHNOLOGY",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/26",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "56",
+      "uri": "/sites/default/files/2023-11/sit_blank_bage_0.jpeg",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "56",
+      "title": "INSIGHTS IN TECHNOLOGY TALKS with Gilles Brassard",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/27",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "57",
+      "uri": "/sites/default/files/2023-11/Gilles_Brassard_.jpeg",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "57",
+      "title": "SIT INSIGHTS IN TECHNOLOGY TALKS with Markus Gross: The digitalisation of entertainment",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/28",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "58",
+      "uri": "/sites/default/files/2023-11/SIT Insights in Technology (1).png",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "58",
+      "title": "SIT Talks Online: Economics and computing join the fight against COVID-19",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/29",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "59",
+      "uri": "/sites/default/files/2023-11/sit_blank_bage.jpeg",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "59",
+      "title": "SIT Virtual Nano Conference  ",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/30",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "60",
+      "uri": "/sites/default/files/2023-11/sit_nano_conference.jpeg",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "60",
+      "title": "SIT Master's Insights",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/31",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "61",
+      "uri": "/sites/default/files/2023-11/sit_masters_insight_1.png",
+      "tags": {
+        "": ""
+      }
+    },
+    {
+      "id": "61",
+      "title": "SIT Master's Insights in Russian",
+      "type": "event",
+      "langcode": "en",
+      "published_at": "1699468200",
+      "content_url": "/events/32",
+      "webinar_date": null,
+      "subtitle": null,
+      "body": null,
+      "media_id": "62",
+      "uri": "/sites/default/files/2023-11/SIT_masters_program.png",
+      "tags": {
+        "": ""
+      }
+    }
+  ],
+  "list_title": "Resources",
+  "filter_label": "Filter by category",
+  "list_url": "/resources/event",
+  "base_langcode": "en",
+  "link_labels": {
+    "default": "Read now",
+    "sign": ""
+  },
+  "tag_groups": [],
+  "bundle": "event",
+  "page": "1",
+  "total_rows": "42",
+  "active_tags": false
+}
