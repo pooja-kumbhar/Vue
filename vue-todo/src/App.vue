@@ -1,21 +1,56 @@
+<script>
+export default{
+data()
+{
+  return{
+    showModel:false,
+    newNote:" ",
+    notes:[],
+    errorMessage:"",
+  }
+},
+methods:{
+
+  getRandomColor(){
+  return "hsl("+Math.random()*360+", 100%, 75%)";
+  },
+
+   addNote(){
+    if(this.newNote.length<=10){
+    return  this.errorMessage="The note al least have 10 characters";
+    }
+    this.notes.push({
+      id:Math.floor(Math.random()*1000000),
+      text:this.newNote,
+      date:new Date(),
+      backgroundColor:this.getRandomColor()
+    });
+    this.showModel=false;
+    this.newNote="";
+   },
+}
+}
+</script>
+
 <template>
   <main>
-    <div class="overlay">
-   <!-- <div class="modal">
-        <textarea name="note" id="note" cols="30" rows="10"></textarea>
-        <button class="modal-button">Add Note</button>
-        <button class="modal-button">Close Note</button>
-      </div>--> 
+    <div v-if ="showModel" class="overlay">
+    <div class="modal">
+        <textarea  v-model.trim="newNote" name="note" id="note" cols="30" rows="10"></textarea>
+        <p v-if="errorMessage" class="error-message">{{ errorMessage }}</p>
+        <button class="modal-button" @click="addNote">Add Note</button>
+        <button class="modal-button" @click="showModel=false">Close Note</button>
+      </div>
     </div>
     <div class="container">
       <header>
       <h1>Note</h1>
-      <button>+</button>
+      <button @click="showModel=true">+</button>
     </header>
     <div class="cards-container">
-      <div class="card">
-        <p class="main-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt error tempora quia sed architecto dignissimos, velit molestias voluptas. Dolor dolorum quidem laboriosam aliquid architecto corporis soluta pariatur consequuntur eum quas.</p>
-        <p class="date">14/01/2025</p>
+      <div v-for = "note in notes" :key="note.id" class="card" :style="{backgroundColor:note.backgroundColor}">
+        <p class="main-text">{{ note.text }}</p>
+        <p class="date">{{ note.date.toLocaleDateString("en-US") }}</p>
       </div>
     </div>
     </div>
@@ -119,5 +154,9 @@ font-size: 30px;
   cursor: pointer;
   margin-top: 15px;
   
+}
+
+.error-message{
+  color: red;
 }
 </style>
